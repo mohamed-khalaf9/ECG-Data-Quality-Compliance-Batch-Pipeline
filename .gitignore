@@ -1,0 +1,17 @@
+
+venv/
+
+
+__pycache__/
+*.pyc
+
+
+.env
+airflow/config/airflow.cfg
+
+
+airflow/dags/*.csv
+airflow/dags/output/*
+
+
+airflow/logs/*
