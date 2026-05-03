@@ -1,3 +1,22 @@
+# ECG-Data-Quality-Compliance-Batch-Pipeline
+
+## Table of Contents
+
+- [1. Problem Statement](#1-problem-statement)
+- [2. Data Overview](#2-data-overview)
+  - [2.1 ECG Machine Measurements](#21-ecg-machine-measurements)
+  - [2.2 Waveform Note Links](#22-waveform-note-links)
+  - [2.3 Data Relationship](#23-data-relationship)
+- [3. System Architecture](#3-system-architecture)
+- [4. Data Profiling](#4-data-profiling)
+  - [4.1 Profiling Objectives](#41-profiling-objectives)
+  - [4.2 ECG Machine Measurements Profiling](#42-ecg-machine-measurements-profiling)
+  - [4.3 Waveform Note Links Profiling](#43-waveform-note-links-profiling)
+- [5. Data Cleaning Strategy](#5-data-cleaning-strategy)
+- [6. Transformation & Aggregation Design](#6-transformation--aggregation-design)
+- [7. Pipeline Execution Design](#7-pipeline-execution-design)
+
+  
 ## 1. Problem Statement
 
 This project focuses on auditing the data quality of ECG machine measurements and their associated clinical notes.
